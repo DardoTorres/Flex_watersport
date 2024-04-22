@@ -1,0 +1,149 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("Photo/jetskit_5.PNG");
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.navbar {
+  font-family: "Allan", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#nav-item-hover {
+  color: black;
+  font-size: 2.5em;
+}
+#nav-item-hover:hover {
+  color: #ffdc00;
+  text-shadow: 0.02em 0.02em 0 #0023ff;
+}
+
+.foto {
+  background-image: url("Photo/jetskit_1.PNG");
+}
+
+.container1 {
+  text-align: center;
+}
+
+.container2 {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
+
+.title {
+  font-size: 5em;
+  font-family: "Allan", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.img_icon {
+  margin-left: 1em;
+  width: 5em;
+  height: 5em;
+}
+#flag {
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25em;
+}
+
+.paragraph {
+  text-shadow: 0.02em 0.02em 0 #0023ff;
+  color: #ffdc00;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+  font-size: 0.6em;
+  font-family: "Allan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#image {
+  width: 35em;
+  height: 20em;
+}
+#contact {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  background-image: url("Photo/Flag.png");
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 0.5em;
+}
+.paragraph1 {
+  margin: 0em;
+  font-size: 0.7em;
+  font-family: "Allan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#create {
+  text-align: center;
+  align-items: center;
+  font-size: 2em;
+  text-decoration: none;
+  color: aliceblue;
+  margin: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.video {
+  color: black;
+  text-decoration: none;
+  font-size: 3em;
+  font-family: "Allan", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.video:hover {
+  color: #ffdc00;
+  text-shadow: 0.02em 0.02em 0 #0023ff;
+}
+.card-title {
+  font-size: 2em;
+}
+#bg-card-1 {
+  background-color: #77d4fc;
+}
+#bg-card-2 {
+  background-image: url("Photo/map2024-04-22\ 120532.png");
+}
+
+@media (max-width: 62em) {
+  .title {
+    font-size: 3.5em;
+  }
+  .paragraph {
+    margin: 0.5em;
+    font-size: 0.5em;
+  }
+
+  #create {
+    font-size: 1.5em;
+
+    margin: 1em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+  }
+  .img_icon {
+    margin-left: 1em;
+    width: 3em;
+    height: 3em;
+  }
+}
